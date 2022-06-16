@@ -128,11 +128,86 @@ section2{
 
 #text2{
     position: relative;
-    top: -300px;
+    top: -150px;
+    left: 340px;
     white-space: nowrap;
     font-size: 2vw;
     z-index: 9;
+    text-align: center;
 }
 
+#text3{
+    position: relative;
+    top: -100px;
+    left: -400px;
+    white-space: nowrap;
+    font-size: 1.5vw;
+    z-index: 9;
+    text-align: center;
+}
 
+diagrama1{
+    position: absolute;
+    left: 300px;
+    top: 700px;
+    white-space: nowrap;
+    font-size: 1.5vw;
+    z-index: 9;
+    border-style: dashed;
+    padding: 5px;
+    background: whitesmoke;
+    text-align: center;
+}
+
+diagrama2{
+    position: absolute;
+    left: 880px;
+    top: 500px;
+    white-space: nowrap;
+    font-size: 1.5vw;
+    z-index: 9;
+    border-style: dashed;
+    padding: 5px;
+    background: whitesmoke;
+    text-align: center;
+}
+
+diagrama3{
+    position: absolute;
+    left: 850px;
+    top: 900px;
+    white-space: nowrap;
+    font-size: 1.5vw;
+    z-index: 9;
+    border-style: dashed;
+    padding: 5px;
+    background: whitesmoke;
+    text-align: center;
+}
+
+diagrama4{
+    position: absolute;
+    left: 1350px;
+    top: 500px;
+    white-space: nowrap;
+    font-size: 1.5vw;
+    z-index: 9;
+    border-style: dashed;
+    padding: 5px;
+    background: whitesmoke;
+    text-align: center;
+}
+
+diagrama5{
+    position: absolute;
+    left: 1350px;
+    top: 900px;
+    white-space: nowrap;
+    font-size: 1.5vw;
+    z-index: 9;
+    border-style: dashed;
+    padding: 5px;
+    background: whitesmoke;
+    text-align: center;
+}
 
