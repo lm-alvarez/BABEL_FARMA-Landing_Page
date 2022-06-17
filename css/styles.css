@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
-#{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-},
+}
 
 body{
     min-height: 100vh;
@@ -41,7 +41,6 @@ header ul li a{
 }
 
 header ul li a:hover,
-
 header ul lia.active{
     background: aqua;
     color: azure;
@@ -80,10 +79,9 @@ section{
 }
 
 positionBoton{
-    position: relative;
-    top: 300px;
-    left: 525px;
+    position: absolute;
     white-space: nowrap;
+    top: 400px;
     font-size: 1.5vw;
     z-index: 9;
     border-style: solid;
@@ -94,10 +92,10 @@ positionBoton{
 
 positionEnvio{
     position: relative;
-    left: -150px;
-    top: 750px;
+    left: auto;
+    top: 400px;
     white-space: nowrap;
-    font-size: 1.5vw;
+    font-size: 1vw;
     z-index: 9;
     border-style: dashed;
     padding: 20px;
@@ -105,10 +103,10 @@ positionEnvio{
 }
 positionRecojo{
     position: relative;
-    left: -150px;
-    top: 750px;
+    left: auto;
+    top: 400px;
     white-space: nowrap;
-    font-size: 1.5vw;
+    font-size: 1vw;
     z-index: 9;
     border-style: dashed;
     padding: 20px;
@@ -124,12 +122,12 @@ section2{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 #text2{
-    position: relative;
-    top: -150px;
-    left: 340px;
+    position: absolute;
+    top: 210px;
     white-space: nowrap;
     font-size: 2vw;
     z-index: 9;
@@ -137,9 +135,8 @@ section2{
 }
 
 #text3{
-    position: relative;
-    top: -100px;
-    left: -400px;
+    position: absolute;
+    top: 250px;
     white-space: nowrap;
     font-size: 1.5vw;
     z-index: 9;
@@ -148,15 +145,13 @@ section2{
 
 diagrama1{
     position: absolute;
-    left: 300px;
-    top: 700px;
     white-space: nowrap;
-    font-size: 1.5vw;
+    font-size: 1vw;
     z-index: 9;
     border-style: dashed;
     padding: 5px;
     background: whitesmoke;
-    text-align: center;
+    text-align: left;
 }
 
 diagrama2{
