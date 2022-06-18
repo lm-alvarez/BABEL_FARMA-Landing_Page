@@ -136,75 +136,20 @@ section2{
 
 #text3{
     position: absolute;
-    top: 300px;
+    top: 310px;
     white-space: nowrap;
     font-size: 1.5vw;
     z-index: 9;
     text-align: center;
 }
 
-diagrama1{
-    position: absolute;
-    white-space: nowrap;
-    font-size: 1vw;
-    z-index: 9;
-    border-style: dashed;
-    padding: 5px;
-    background: whitesmoke;
-    text-align: left;
+#img1{
+    position: relative;
+    width: 60%;
+    height: auto;
+    top: 170px;
 }
 
-diagrama2{
-    position: absolute;
-    left: 880px;
-    top: 500px;
-    white-space: nowrap;
-    font-size: 1.5vw;
-    z-index: 9;
-    border-style: dashed;
-    padding: 5px;
-    background: whitesmoke;
-    text-align: center;
-}
-
-diagrama3{
-    position: absolute;
-    left: 850px;
-    top: 900px;
-    white-space: nowrap;
-    font-size: 1.5vw;
-    z-index: 9;
-    border-style: dashed;
-    padding: 5px;
-    background: whitesmoke;
-    text-align: center;
-}
-
-diagrama4{
-    position: absolute;
-    left: 1350px;
-    top: 500px;
-    white-space: nowrap;
-    font-size: 1.5vw;
-    z-index: 9;
-    border-style: dashed;
-    padding: 5px;
-    background: whitesmoke;
-    text-align: center;
-}
-
-diagrama5{
-    position: absolute;
-    left: 1350px;
-    top: 900px;
-    white-space: nowrap;
-    font-size: 1.5vw;
-    z-index: 9;
-    border-style: dashed;
-    padding: 5px;
-    background: whitesmoke;
-    text-align: center;
-}
 section3{
     position: relative;
     background: #49d0ec;
