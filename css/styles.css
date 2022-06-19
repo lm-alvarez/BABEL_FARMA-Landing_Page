@@ -204,6 +204,16 @@ diagrama7{
     background:  whitesmoke;
     margin-left: 650px;
 }
+
+#text6{
+    position: absolute;
+    top: 50px;
+    white-space: nowrap;
+    font-size: 2vw;
+    z-index: 9;
+    text-align: center;
+}
+
 section4{
     position: relative;
     background: #d5fdea;
@@ -214,10 +224,13 @@ section4{
     justify-content:center;
     align-items: start;
 }
+
+
 diagrama8 {
      height: 350px;
-     width: 250px;
+     width: 350px;
      position: absolute;
+     top: 200px;
      left: auto;
      white-space: nowrap;
      font-size: 1vw;
@@ -225,12 +238,13 @@ diagrama8 {
      border-style: dashed;
      padding: 20px;
      background:  whitesmoke;
-     margin-right: 650px;
+     margin-right: 1300px;
  }
 diagrama9 {
     height: 350px;
-    width: 250px;
+    width: 350px;
     position: absolute;
+    top: 200px;
     left: auto;
     white-space: nowrap;
     font-size: 1vw;
@@ -238,12 +252,13 @@ diagrama9 {
     border-style: dashed;
     padding: 20px;
     background: whitesmoke;
-    margin-right: 650px;
+    margin-left: -400px;
 }
 diagrama10 {
     height: 350px;
-    width: 250px;
+    width: 350px;
     position: absolute;
+    top: 200px;
     left: auto;
     white-space: nowrap;
     font-size: 1vw;
@@ -251,12 +266,13 @@ diagrama10 {
     border-style: dashed;
     padding: 20px;
     background: whitesmoke;
-    margin-right: 650px;
+    margin-right: -500px;
 }
 diagrama11 {
     height: 350px;
-    width: 250px;
+    width: 350px;
     position: absolute;
+    top: 200px;
     left: auto;
     white-space: nowrap;
     font-size: 1vw;
@@ -264,5 +280,5 @@ diagrama11 {
     border-style: dashed;
     padding: 20px;
     background: whitesmoke;
-    margin-right: 650px;
+    margin-right: -1400px;
 }
