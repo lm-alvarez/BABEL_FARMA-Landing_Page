@@ -12,30 +12,24 @@
     <link rel = "shortcun icon" href="public/assets/imagenes/favicon.ico" type="image/x-icon">
 </head>
     <header class="hero">
-        <nav class="nav container">
-            <div class="nav_logo"><!-- LOGO -->
+        <nav class="nav container" id="inicio">
+            <div class="nav_logo">
                 <a><img class="img-logo" src="./public/assets/imagenes/logo.png"></a>
             </div>
-
-            <ul class="nav__link nav__link--menu">
+            <ul class="nav__link --menu">
                 <li class="nav__items">
-                    <a href="#" class="nav__links">INICIO</a>
+                    <a href="#inicio" class="nav__links">INICIO</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">¿COMO FUNCIONA?</a>
+                    <a href="#funciona" class="nav__links">¿COMO FUNCIONA?</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">ACERCA DE NOSOTROS</a>
+                    <a href="#nosotros" class="nav__links">ACERCA DE NOSOTROS</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">¿QUE OFRECEMOS?</a>
+                    <a href="#queofrecemos" class="nav__links">¿QUE OFRECEMOS?</a>
                 </li>
-                <!-- EL PATA PUSO IMAGEN ACA -->
             </ul>
-
-            <div class="nav__menu">
-                <img src="./public/assets/imagenes/menu.svg" class="nav__img">
-            </div>
         </nav>
 
         <section class="hero__container container">
@@ -43,10 +37,11 @@
             <a href="#" class="cta">Empieza aquí</a>
         </section>
 
-    </header>
+</header>
+
 <body>
     <main class="funciones">
-        <section class="container function">
+        <section class="container function" id="funciona">
             <h2 class="subtitle">¿Cómo funciona?</h2>
             <div class="about__function">
                 <article class="function__icons">
@@ -84,7 +79,7 @@
 
 
     <main class="nosotros">
-        <section class="container nosotros">
+        <section class="container nosotros" id="nosotros">
             <h2 class="subtitle">ACERCA DE NOSOTROS</h2>
             <h2 class="texto2">Integrantes del Startup</h2>
             <div class="about__nosotros">
@@ -119,27 +114,27 @@
         <section  align="center">
             <div>
                 <h2 class="texto2">Video about the team <br></h2>
-                <iframe width="1100" height="650" src="https://www.youtube.com/embed/L62KHKXkVKw"
-                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
-                        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/L62KHKXkVKw"
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                        encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </section>
         <section  align="center">
             <div>
                 <h2 class="texto2">Video about the product <br></h2>
-                <iframe width="1100" height="650" src="https://www.youtube.com/embed/L62KHKXkVKw"
-                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
-                        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/L62KHKXkVKw"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                        encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <h2><br></h2>
         </section>
     </main>
 
 
     <main class="ofrecemos">
-        <section class="container ofrecemos">
+        <section class="container ofrecemos" id="queofrecemos">
             <h2 class="subtitle">¿QUE OFRECEMOS?</h2>
-            <div class="about__nosotros">
+            <div class="about__ofrecemos">
                 <article class="cuadro_ofrecemos">
                     <img alt="Imagen de asistente medico virtual" src="./public/assets/imagenes/asistente.svg" class="imagen_ofrecemos">
                     <h2 class="nosotros_title">Asistente médico virtual</h2>
