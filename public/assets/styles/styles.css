@@ -272,3 +272,104 @@ body{
     width: 270px;
     height: 350px;
 }
+
+.ofrecemos{
+    background-color: palegreen;
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+.about__nosotros{
+    padding-top: 40px;
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+
+
+
+.ofrecemos{
+    position: relative;
+    text-align: center;
+    height: auto;
+}
+
+.about__nosotros{
+    padding-top: 40px;
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+.cuadro_ofrecemos{
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    width: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-style: dashed;
+    background-color: #f4f4f4;
+}
+
+.imagen_ofrecemos{
+    padding-top: 10px;
+    justify-items: center;
+    width: 270px;
+    height: 270px;
+}
+
+
+
+
+.img-logo{
+    width: 250px;
+    height: 20%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.barfooter {
+    background-color: #1e1e1e;
+    padding: 30px 0px;
+}
+
+.media {
+    display: flex;
+    column-gap: 20px;
+}
+.social-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.social-icon{
+    height: 40px;
+    width: 40px;
+    transition: 0.2s ease-in;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+    transition: 0.2s ease-in;
+
+}
+
+.footlink {
+    font-size: 16px;
+    color: white;
+}
