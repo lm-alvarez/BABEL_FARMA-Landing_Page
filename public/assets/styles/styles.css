@@ -131,8 +131,9 @@ body{
 }
 
 .function{
+    position: relative;
     text-align: center;
-    height: 840px;
+    height: auto;
 }
 
 .subtitle{
@@ -150,18 +151,33 @@ body{
 }
 
 .about__function{
-
-    padding-top: 15px;
+    padding-top: 40px;
     display: grid;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     gap: 1em;
     overflow: hidden;
     grid-template-columns: repeat(auto-fit, minmax(260px, auto));
 }
 
-.about_icon{
-    width: 40px;
+.about_icon1{
+    width: 80px;
+    padding-bottom: 9px;
+}
+.about_icon2{
+    width: 80px;
+    padding-bottom: 29px;
+}
+.about_icon3{
+    width: 80px;
+    padding-bottom: 18px;
+}
+.about_icon4{
+    width: 80px;
+}
+
+.function__paragraph{
+    padding-bottom: 15px;
 }
 
 .function__icons{
@@ -171,6 +187,8 @@ body{
     width: 260px;
     overflow: hidden;
     margin: 0 auto;
+    border-style: dashed;
+    border-radius: 20px;
 }
 
 .about_diagrama{
@@ -192,4 +210,65 @@ body{
     text-align: center;
 }
 
+.cta2{
+    display: inline-block;
+    background-color: darkblue;
+    justify-self: center;
+    color: white;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 32px;
+}
 
+
+
+
+.texto2{
+    color: var(--color-title);
+    font-size: 1.5rem;
+    padding-top: 20px;
+    margin-bottom: 25px;
+}
+
+.nosotros{
+    background-color: #8CC2F9;
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.nosotros{
+    text-align: center;
+    height: auto;
+}
+
+.about__nosotros{
+    padding-top: 40px;
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+.cuadro_integrante{
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    width: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-style: dashed;
+    background-color: #f4f4f4;
+}
+.imagen_nosotros{
+    padding-top: 10px;
+    justify-items: center;
+    width: 270px;
+    height: 350px;
+}
