@@ -79,7 +79,8 @@ body{
 
 
 .nav__links{
-    color: aqua;
+    color: darkblue;
+    font-weight: bold;
     text-decoration: none;
 }
 
