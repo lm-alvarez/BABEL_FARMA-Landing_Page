@@ -174,11 +174,11 @@ body{
 
 .about_icon1{
     width: 80px;
-    padding-bottom: 9px;
+    padding-top: 30px;
 }
 .about_icon2{
     width: 80px;
-    padding-bottom: 32px;
+    padding-top: 7px;
 }
 .about_icon3{
     width: 80px;
@@ -188,7 +188,7 @@ body{
 }
 
 .function__paragraph{
-    padding-bottom: 15px;
+
 }
 
 .function__icons{
