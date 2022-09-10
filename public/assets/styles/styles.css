@@ -357,7 +357,7 @@ body{
     display: grid;
     gap: 1em;
     justify-items: center;
-    width: 300px;
+    width: 250px;
     overflow: hidden;
     margin: 0 auto;
     border-style: dashed;
@@ -366,8 +366,8 @@ body{
 .imagen_nosotros{
     padding-top: 10px;
     justify-items: center;
-    width: 270px;
-    height: 350px;
+    width: 200px;
+    height: 280px;
 }
 
 .ofrecemos{
